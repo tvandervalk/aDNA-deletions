@@ -101,7 +101,6 @@ rm $contig_name".fa.ann"
 rm $contig_name".fa.bwt"
 rm $contig_name".fa.pac"
 rm $contig_name".fa.sa"
-rm $contig_name".fastq.gz"
 
 python $scripts"/detect_deletions.py" --depthfile $contig_name".depth" --samples $contig_name".samples.txt"
 
