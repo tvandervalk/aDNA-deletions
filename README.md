@@ -21,7 +21,7 @@ aDNA-deletions/run_deletions.sh
     --bwa           path to bwa command (e.g. /home/bwa/bwa)
     --bedtools      path to bedtools command (e.g. /home/bedtools2/bedtools)
     --scripts       path to folder containing the python scripts (e.g. /home/aDNA-deletions/scripts)
-    --filepaths     path to tab seperated file containing sample information
+    --filepaths     path to tab separated file containing sample information
   ```
   
   The script analyses one chromosome/contig at a time. To speed up the analysis, one job per contig can be run simultaneously
