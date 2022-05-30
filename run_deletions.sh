@@ -12,7 +12,7 @@ function usage() {
         --samtools:   full path to samtools command (e.g. /home/samtools/samtools)
         --bwa:        full path to bwa command (e.g. /home/bwa/bwa)
         --bedtools    full path to bedtools command (e.g. /home/bedtools2/bedtools)
-        --scripts     path to folder containing the python scripts (e.g. /home/aDNA-deletions)
+        --scripts     path to folder containing the python scripts (e.g. /home/aDNA-deletions/scripts)
         --filepaths   path to txt file containing sample information
 USAGE
     exit 1
