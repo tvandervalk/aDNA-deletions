@@ -81,7 +81,6 @@ rm $contig_name".sai"
 $samtools sort -@ $threads $contig_name".bam" > "sorted."$contig_name".bam"
 $samtools index -@ $threads "sorted."$contig_name".bam"
 rm $contig_name".bam"
-rm $contig_name".fastq.gz"
 
 echo reference$'\t'sorted.$contig_name.bam > $contig_name".samples.txt"
 cat $filepaths >> $contig_name".samples.txt"
@@ -124,6 +123,7 @@ rm $contig_name".merged.reference.bed"
 rm $contig_name".merged.target.bed"
 rm $contig_name".depth_files.txt"
 rm $contig_name".samples.txt"
+rm $contig_name".fastq.gz"
 
 mkdir PDFS
 
