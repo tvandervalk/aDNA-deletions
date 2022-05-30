@@ -66,7 +66,7 @@ done
 
 echo "Starting run for contig: "$contig_name
 
-threads=6 #number of threads to use (multi-threading is only used in the first steps of the pipeline)
+threads=1 #number of threads to use (multi-threading is only used in the first steps of the pipeline)
 readlength=35 #minimal readlength used for the ancient genomes (minimal of 35bp is recommended)
 
 $samtools faidx $reference_file
