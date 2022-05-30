@@ -11,7 +11,7 @@ These scripts were specifically written to analyse ancient mammoth genomes > 10X
 
 **How to run:**
 
-The script first builds a reference mappability map. Next regions where a set of outgroup genomes (e.g. asian elephants) has normal read coverage but a set of target genomes (e.g. woolly mammoths) does not show read support are identified. The output is a bedfile containing the deleted regions, fixed in the target set and plots of the average coverage around those regions. To run a set of target andoutgroup genomes has to be provided in a tab-separated file, with the 1st column depicting outgroup or target and the 2nd column the path to the bam-file (see filepath_example.txt for an example file):
+The script first builds a reference mappability map. Next, regions where a set of outgroup genomes (e.g. asian elephants) have normal read coverage but a set of target genomes (e.g. woolly mammoths) do not show read support are identified. The output is a bedfile containing the deleted regions fixed in the target set, and plots of the average coverage around those regions. To run, a set of target and outgroup genomes has to be provided in a tab-separated file, with the 1st column depicting outgroup/target and the 2nd column the path to the bam-file (see filepath_example.txt for an example file):
 
 ```
 aDNA-deletions/run_deletions.sh
