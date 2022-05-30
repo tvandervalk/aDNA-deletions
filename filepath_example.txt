@@ -1,0 +1,6 @@
+outgroup  /home/bamfiles/asian_elepant_A.bam
+outgroup  /home/bamfiles/asian_elepant_B.bam
+outgroup  /home/bamfiles/asian_elepant_C.bam
+target  /home/bamfiles/woolly_mammoth_A.bam
+target  /home/bamfiles/woolly_mammoth_B.bam
+target  /home/bamfiles/woolly_mammoth_C.bam
