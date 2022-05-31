@@ -111,7 +111,7 @@ rm $contig_name".reference.bed"
 rm $contig_name".outgroup.bed"
 rm $contig_name".target.bed"
 
-python $scripts/"merge_bed_files.py" --target $contig_name
+python $scripts"/merge_bed_files.py" --target $contig_name
 
 $bedtools merge -i $contig_name".intermediate.reference_outgroup.bed" -d 250 | python $scripts"/filter_bed_by_length.py" - > $contig_name".reference_outgroup_filter.bed"
 $bedtools merge -i $contig_name".intermediate.target.bed" -d 250 | python $scripts"/filter_bed_by_length.py" - > $contig_name".target_deletions.bed"
