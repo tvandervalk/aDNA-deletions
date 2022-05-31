@@ -87,16 +87,16 @@ outputfile_reference = open(contig_name + ".reference.bed", "w")
 outputfile_outgroup = open(contig_name + ".outgroup.bed", "w")
 outputfile_target = open(contig_name + ".target.bed", "w")
 
-    #set up matrix to obtain coverage in 100bp windows
+#set up matrix to obtain coverage in 100bp windows
 n = 100
 sample_size = len(group_list)
 depth_matrix = [0] * n
 for i in range(n):
     depth_matrix[i] = [0] * sample_size
 
-outputfile_window_depth = open("windowed." + options.depthfile,"w")
-    #read depth file and find regions with low coverage
+#read depth file and find regions with low coverage
 site_counter = 0
+outputfile_window_depth = open("windowed." + options.depthfile,"w")
 with open(options.depthfile) as f1:
     for line in f1:
         splitted = line.strip().split("\t")
