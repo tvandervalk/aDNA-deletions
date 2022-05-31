@@ -72,7 +72,7 @@ readlength=35 #minimal readlength used for the ancient genomes (minimal of 35bp 
 $samtools faidx $reference_file
 $samtools faidx $reference_file $contig_name > $contig_name".fa"
 
-python $scripts"fasta_to_reads.py" --fasta $contig_name".fa" --readlength $readlength --out $contig_name --target $contig_name
+python $scripts"/fasta_to_reads.py" --fasta $contig_name".fa" --readlength $readlength --out $contig_name --target $contig_name
 
 $bwa index $contig_name".fa"
 $bwa aln -l 16500 -n 0.01 -o 2 -t $threads $contig_name".fa" $contig_name".fastq.gz" > $contig_name".sai"
