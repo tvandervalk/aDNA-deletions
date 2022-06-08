@@ -5,7 +5,7 @@ These scripts were specifically written to analyse ancient mammoth genomes >10X 
 
 **Running requirements:**
   - Python3 (https://www.python.org/downloads/)
-  - matplotlib
+  - matplotlib (https://matplotlib.org/)
   - samtools (https://github.com/samtools/)
   - bwa (https://github.com/lh3/bwa)
   - bedtools2 (https://github.com/arq5x/bedtools2)
