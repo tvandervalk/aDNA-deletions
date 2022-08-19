@@ -1,5 +1,5 @@
 # aDNA-deletions-scripts
-Scripts used to detect genomic deletions in woolly mammoth genomes (van der Valk et. al 2022, in submision)
+Scripts used to detect genomic deletions in woolly mammoth genomes (van der Valk et. al 2022, iScience)
 
 These scripts were specifically written to analyse ancient mammoth genomes >10X coverage and are not tested on other datasets. Use with caution on your own genomic data.
 
